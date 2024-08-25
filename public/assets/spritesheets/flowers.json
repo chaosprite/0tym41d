@@ -1,0 +1,104 @@
+{
+	"textures": [
+		{
+			"image": "flowers0.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 827,
+				"h": 4389
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "kimi.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 832,
+						"h": 2944
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 13,
+						"w": 825,
+						"h": 2931
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 825,
+						"h": 2931
+					}
+				},
+				{
+					"filename": "pierre.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 832,
+						"h": 1344
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 13,
+						"w": 804,
+						"h": 1331
+					},
+					"frame": {
+						"x": 1,
+						"y": 2934,
+						"w": 804,
+						"h": 1331
+					}
+				},
+				{
+					"filename": "leafy_daisy_red.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 4,
+						"w": 60,
+						"h": 121
+					},
+					"frame": {
+						"x": 1,
+						"y": 4267,
+						"w": 60,
+						"h": 121
+					}
+				},
+				{
+					"filename": "lpc leaf recolors.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 128,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 122,
+						"h": 31
+					},
+					"frame": {
+						"x": 63,
+						"y": 4267,
+						"w": 122,
+						"h": 31
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:93bf1005854cdccc77afbc2125193616:14ada5be8df010f15d1eb98df5e496ad:f52b0e31b88bc0fad339e4bf287a9a99$"
+	}
+}

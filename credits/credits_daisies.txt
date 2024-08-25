@@ -1,0 +1,8 @@
+License
+-------
+CC-BY-SA 3.0:
+- http://creativecommons.org/licenses/by-sa/3.0/
+
+Daisies
+Author: Jordan Irwin (AntumDeluge)
+Canonical link: https://opengameart.org/node/147534
