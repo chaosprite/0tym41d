@@ -1,0 +1,80 @@
+* Tutorial Basics
+This tutorial is about
+- Basic animation with spritesheets
+- Simple effects
+- Simple item managment
+- Working with props
+- Different modes of detection (sight, hearing and smell)
+- A simple client server structure
+- Coding and debugging using emacs or Webstorm
+- Deploying taskrunners to act as NPC
+
+Hi everyone!
+
+This will be quick phaser mmorpg tutorial. In it, we will do the following:
+
+- Use the Universal LPC spritesheet generator to make characters
+  and display them using Spritesheets
+- Create a menu for displaying credits to honor the artists
+- Create a map using the tiled editor
+- Create a basic server that allows multiple characters at once
+- Create a different clients for NPC and props who will act as such players
+- Create animated props on a map that will interact with the player
+- Create an NPC who will interact with the player
+- Manage the deployment of the props / NPC taskrunners
+- Build a basic item management system with a database
+
+The intended audience for this are somewhat experienced programmers,
+but newbies are welcome to follow along and ask me questions if they
+get stuck.
+
+I chosse the server-client structure because I wanted to learn more
+about managing network state with typescript and because I want to
+make smart NPC who will try to act human. Seperating them from the
+main server means that they can be debugged seperately and can be
+easily restarted when something goes wrong. Also, the player will
+later be allowed to hack certain NPC which should not give them
+control over the server itself. But I'm getting ahead... *cough*
+
+It's a tale as old as time: A young AI is sent out into the wilderness
+to pick some pretty flowers and advised to take the time to smell
+them. A guardian appears to hinder this quest, but is circumvented by
+the AI's wit. Smelling those flowers causes a spark of sentinence in
+the AI and things take an unexpected turn...
+
+Ok, so first we need an AI. I'm gonna make a feminine looking lavender
+one, but please feel free to create whatever you like. Just put some
+clothes on them, that's important for the tutorial (and proper when
+interacting with human NPC). Since I'm not much of an artist and want
+to make dressing yourself an important part of my game, I'll go with
+the LPC Spritesheet Character Generator. You can try it online at:
+https://sanderfrenken.github.io/Universal-LPC-Spritesheet-Character-Generator/
+, but I think it makes more sense to clone the project and run it
+locally instead, so we can change clothes, characters etc more easily
+later.
+
+So we first fork the project on github (requires an account, I'd
+recommend setting up a ssh-key while you are at it), then git clone
+it. Now we need a simple web server to serve the directory (since
+reading stuff from files is insecure), so we install one with
+npm install -g http-server
+Now we can easily host the generator by changing into that directory
+and invoking the server:
+http-server
+This will show us an ip:port on console, to which we can connect using
+out favorite browser.  Sadly, we still need jquery and thus internet
+connectivity for this to work.
+
+
+I made this model for our AI
+http://127.0.0.1:8080/#?body=Body_color_lavender&head=Human_female_lavender&sex=female&ears=Elven_ears_lavender&nose=Button_nose_lavender&eyes=Eyes_blue&eyebrows=Thin_Eyebrows_violet&hair=Long_violet&dress=Kimono_blue
+And this one for the NSC who tries to stop her from taking a flower
+http://127.0.0.1:8080/#?body=Body_color_light&head=Human_male_light&sex=teen&ears=none&nose=Button_nose_light&eyes=Eyes_green&eyebrows=Thin_Eyebrows_violet&hair=Curly_short_blonde&clothes=Sleeveless_2_VNeck_sky&belt=Leather_Belt_brown&legs=Leggings_blue&shoes=Sandals_walnut&mustache=French_Mustache_blonde
+Then I downloaded the respective credit files, merged them and packed
+the sprites with TexturePacker. 
+
+TexturePacker --max-size 8192 --multipack --format phaser --sheet flowers{n}.png --data flowers.json sprites/
+ 
+
+
+

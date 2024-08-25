@@ -1,0 +1,356 @@
+{
+	"textures": [
+		{
+			"image": "flowers0.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 4734,
+				"h": 7155
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "female_sandals_walnet.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 832,
+						"h": 1344
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 52,
+						"w": 790,
+						"h": 1291
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 790,
+						"h": 1291
+					}
+				},
+				{
+					"filename": "female_leggings_blue.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 832,
+						"h": 1344
+					},
+					"spriteSourceSize": {
+						"x": 23,
+						"y": 45,
+						"w": 786,
+						"h": 1297
+					},
+					"frame": {
+						"x": 793,
+						"y": 1,
+						"w": 786,
+						"h": 1297
+					}
+				},
+				{
+					"filename": "female_blue_kimono.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 832,
+						"h": 1344
+					},
+					"spriteSourceSize": {
+						"x": 20,
+						"y": 33,
+						"w": 791,
+						"h": 1310
+					},
+					"frame": {
+						"x": 1581,
+						"y": 1,
+						"w": 791,
+						"h": 1310
+					}
+				},
+				{
+					"filename": "male_leather_belt_brown.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 832,
+						"h": 1344
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 15,
+						"w": 787,
+						"h": 1323
+					},
+					"frame": {
+						"x": 2374,
+						"y": 1,
+						"w": 787,
+						"h": 1323
+					}
+				},
+				{
+					"filename": "female_hair_long_violet.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 832,
+						"h": 1344
+					},
+					"spriteSourceSize": {
+						"x": 18,
+						"y": 13,
+						"w": 795,
+						"h": 1331
+					},
+					"frame": {
+						"x": 3163,
+						"y": 1,
+						"w": 795,
+						"h": 1331
+					}
+				},
+				{
+					"filename": "adult_eyebrows_violet.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 832,
+						"h": 2944
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 90,
+						"w": 784,
+						"h": 2821
+					},
+					"frame": {
+						"x": 1,
+						"y": 1294,
+						"w": 784,
+						"h": 2821
+					}
+				},
+				{
+					"filename": "adult_thin_eyebrows_blonde.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 832,
+						"h": 2944
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 90,
+						"w": 784,
+						"h": 2821
+					},
+					"frame": {
+						"x": 787,
+						"y": 1300,
+						"w": 784,
+						"h": 2821
+					}
+				},
+				{
+					"filename": "french_mustache_blonde.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 832,
+						"h": 2944
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 95,
+						"w": 791,
+						"h": 2823
+					},
+					"frame": {
+						"x": 1573,
+						"y": 1313,
+						"w": 791,
+						"h": 2823
+					}
+				},
+				{
+					"filename": "human_eyes_adult_blue.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 832,
+						"h": 2944
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 92,
+						"w": 784,
+						"h": 2823
+					},
+					"frame": {
+						"x": 2366,
+						"y": 1326,
+						"w": 784,
+						"h": 2823
+					}
+				},
+				{
+					"filename": "fem_nose_button_adult_lavender.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 832,
+						"h": 2944
+					},
+					"spriteSourceSize": {
+						"x": 20,
+						"y": 92,
+						"w": 789,
+						"h": 2825
+					},
+					"frame": {
+						"x": 3152,
+						"y": 1334,
+						"w": 789,
+						"h": 2825
+					}
+				},
+				{
+					"filename": "teen_sleveless2_vneck_sky.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 832,
+						"h": 2944
+					},
+					"spriteSourceSize": {
+						"x": 20,
+						"y": 33,
+						"w": 790,
+						"h": 2897
+					},
+					"frame": {
+						"x": 3943,
+						"y": 1334,
+						"w": 790,
+						"h": 2897
+					}
+				},
+				{
+					"filename": "adult_elven_lavender.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 832,
+						"h": 2944
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 23,
+						"w": 802,
+						"h": 2888
+					},
+					"frame": {
+						"x": 1,
+						"y": 4123,
+						"w": 802,
+						"h": 2888
+					}
+				},
+				{
+					"filename": "fem_heaad_lavender.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 832,
+						"h": 2944
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 15,
+						"w": 799,
+						"h": 2904
+					},
+					"frame": {
+						"x": 805,
+						"y": 4138,
+						"w": 799,
+						"h": 2904
+					}
+				},
+				{
+					"filename": "adult_curly_short_blonde.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 832,
+						"h": 2944
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 13,
+						"w": 807,
+						"h": 2906
+					},
+					"frame": {
+						"x": 1606,
+						"y": 4151,
+						"w": 807,
+						"h": 2906
+					}
+				},
+				{
+					"filename": "fem_body_lavender.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 832,
+						"h": 2944
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 23,
+						"w": 825,
+						"h": 2921
+					},
+					"frame": {
+						"x": 2415,
+						"y": 4161,
+						"w": 825,
+						"h": 2921
+					}
+				},
+				{
+					"filename": "teen_light_body.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 832,
+						"h": 2944
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 23,
+						"w": 825,
+						"h": 2921
+					},
+					"frame": {
+						"x": 3242,
+						"y": 4233,
+						"w": 825,
+						"h": 2921
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:09d86d23f606552fc92c8b901b669568:2b3e403fba6cd5a00bde9222c32ad2ec:f52b0e31b88bc0fad339e4bf287a9a99$"
+	}
+}
